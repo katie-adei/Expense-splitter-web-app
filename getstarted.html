@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get Started - KT-Impact: SplitExpense</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f7fa;
+        }
+
+        header{
+            background:#2d6cdf;
+            color:white;
+            padding:20px;
+            text-align:center;
+        }
+
+        .container{
+            max-width:700px;
+            margin:50px auto;
+            background:white;
+            padding:40px;
+            border-radius:10px;
+            box-shadow:0 4px 10px rgba(0,0,0,0.1);
+        }
+
+        h1{
+            color:#2d6cdf;
+            margin-bottom:20px;
+            text-align:center;
+        }
+
+        p{
+            text-align:center;
+            color:#555;
+            margin-bottom:30px;
+        }
+
+        form{
+            display:flex;
+            flex-direction:column;
+            gap:15px;
+        }
+
+        input{
+            padding:12px;
+            border:1px solid #ccc;
+            border-radius:5px;
+            font-size:16px;
+        }
+
+        button{
+            padding:12px;
+            background:#2d6cdf;
+            color:white;
+            border:none;
+            border-radius:5px;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#1f56ba;
+        }
+
+        .back-home{
+            text-align:center;
+            margin-top:20px;
+        }
+
+        .back-home a{
+            text-decoration:none;
+            color:#2d6cdf;
+            font-weight:bold;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h2>KT-Impact: SplitExpense</h2>
+    </header>
+
+    <div class="container">
+
+        <h1>Create Your First Group</h1>
+
+        <p>
+            Start tracking shared expenses with your friends,
+            roommates, classmates, or travel group.
+        </p>
+
+        <form>
+
+            <input type="text" placeholder="Your Name" required>
+
+            <input type="text" placeholder="Group Name" required>
+
+            <input type="number" placeholder="Number of Members" required>
+
+            <button type="submit">
+                Create Group
+            </button>
+
+        </form>
+
+        <div class="back-home">
+            <a href="index.html">← Back to Home</a>
+        </div>
+
+    </div>
+
+</body>
+</html>

@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>KT-Impact: SplitExpense - Expense Splitter</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body{
+            background:#f4f7fa;
+        }
+
+        header{
+            background:#2d6cdf;
+            color:white;
+            display:flex;
+            justify-content:center;
+            align-items:center;
+            padding:20px 8%;
+        }
+
+        .logo{
+            font-size:28px;
+            font-weight:bold;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin-left:20px;
+            font-weight:bold;
+        }
+
+        .hero{
+            display:flex;
+            flex-direction:column;
+            justify-content:center;
+            align-items:center;
+            text-align:center;
+            height:80vh;
+            padding:20px;
+        }
+
+        .hero h1{
+            font-size:50px;
+            color:#222;
+            margin-bottom:20px;
+        }
+
+        .hero p{
+            font-size:20px;
+            color:#555;
+            max-width:700px;
+            margin-bottom:30px;
+        }
+
+        .btn{
+            display:inline-block;
+            padding:14px 30px;
+            background:#2d6cdf;
+            color:white;
+            text-decoration:none;
+            border-radius:8px;
+            margin:10px;
+            font-weight:bold;
+        }
+
+        .btn:hover{
+            background:#1f56ba;
+        }
+
+        .features{
+            padding:70px 10%;
+        }
+
+        .features h2{
+            text-align:center;
+            margin-bottom:40px;
+            color:#222;
+        }
+
+        .feature-container{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+            gap:20px;
+        }
+
+        .feature-card{
+            background:white;
+            padding:25px;
+            border-radius:12px;
+            text-align:center;
+            box-shadow:0 3px 8px rgba(0,0,0,0.1);
+        }
+
+        .feature-card h3{
+            margin-bottom:10px;
+            color:#2d6cdf;
+        }
+
+        footer{
+            text-align:center;
+            background:#222;
+            color:white;
+            padding:20px;
+            margin-top:50px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">KT-Impact: SplitExpense</div>
+
+
+    </header>
+
+    <section class="hero">
+        <h1>Split Group Expenses Easily</h1>
+
+        <p>
+            Keep track of shared bills, trips, events, and outings.
+            Add expenses, split costs fairly, and instantly see who owes whom.
+        </p>
+
+        <div>
+            <a href="getstarted.html" class="btn">Get Started</a>
+            <a href="login.html" class="btn">Login</a>
+        </div>
+    </section>
+
+    <section class="features">
+        <h2>Why Use KT-Impact: SplitExpense?</h2>
+
+        <div class="feature-container">
+
+            <div class="feature-card">
+                <h3>Create Groups</h3>
+                <p>Create groups for roommates, friends, trips, or events.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Add Expenses</h3>
+                <p>Record who paid and how much was spent.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Automatic Splitting</h3>
+                <p>Calculate balances instantly without manual math.</p>
+            </div>
+
+            <div class="feature-card">
+                <h3>Track Debts</h3>
+                <p>See exactly who owes money and who should receive it.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer>
+        <p>© 2026 KT-Impact: SplitExpense. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
